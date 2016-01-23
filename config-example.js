@@ -1,8 +1,8 @@
 //place the URL of the showdown server you are aiming to connect to
-exports.url = 'play.pokemonshowdown.com';
+exports.url 'http://pokemon-showdown-paul71ps-2.c9users.io-80.psim.us';
 
 // The nick and password to log in with
-var nick = exports.nick = ''
+var nick = exports.nick = 'Lucy BoTT'
 exports.pass = '';
 
 // A list of private rooms that the bot will not leak through the seen command
@@ -13,7 +13,7 @@ exports.privaterooms = [];
 // Showdown itself.
 // Using only alphanumeric characters and spaces is not allowed.
 // Add more command characters 
-var comChar = exports.commandcharacter = ['+', '.'];
+var comChar = exports.commandcharacter = ['~', '~'];
 
 // The default rank is the minimum rank that can use a command in a room when
 // no rank is specified in settings.json
@@ -79,8 +79,8 @@ exports.avatar = null;
 exports.pmmessage = "Hi, I am only a bot.  Please PM another staff member for assistance. Use " + comChar[0] + "guide to see my commands. Have a nice day! n_n";
 /*
 exports.override = {
-	server: "sim.smogon.com",
-	port: 8000,
+	server:"http://pokemon-showdown-paul71ps-2.c9users.io-80.psim.us",
+	port: 80,
 	serverid: "showdown"
 }
 
