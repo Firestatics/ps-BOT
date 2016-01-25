@@ -1,6 +1,5 @@
 //place the URL of the showdown server you are aiming to connect to
-exports.url 'http://pokemon-showdown-paul71ps-2.c9users.io-80.psim.us';
-
+exports.url 'http://omega-paul71ps.c9users.io-8080.psim.us';
 // The nick and password to log in with
 var nick = exports.nick = 'Lucy BoTT'
 exports.pass = '';
@@ -79,9 +78,9 @@ exports.avatar = null;
 exports.pmmessage = "Hi, I am only a bot.  Please PM another staff member for assistance. Use " + comChar[0] + "guide to see my commands. Have a nice day! n_n";
 /*
 exports.override = {
-	server:"http://pokemon-showdown-paul71ps-2.c9users.io-80.psim.us",
-	port: 80,
-	serverid: "showdown"
+	server:"http://omega-paul71ps.c9users.io-8080.psim.us",	
+         port: 80,
+	 serverid: "omega"
 }
 
 for c9 servers
